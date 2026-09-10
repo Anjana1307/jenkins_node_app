@@ -16,7 +16,8 @@ pipeline {
             steps {
                bat 'node index.js'
             }
-         stage('Test') {
+        }
+        stage('Test') {
             steps {
                bat 'npm test'
             }
